@@ -118,6 +118,19 @@ code {
   font-size: 1.15rem;
 }
 
+.footer-tape {
+  margin: 2rem 0 0;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.7);
+  background-image: url("assets/obsessivewp-footer-tape.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: clamp(4.5rem, 11vw, 7rem);
+}
+
 @media (max-width: 768px) {
   .page-shell {
     padding: 1.25rem 1rem 2rem;
@@ -130,6 +143,11 @@ code {
   .message {
     padding: 1.4rem 1.15rem;
     border-radius: 1.25rem;
+  }
+
+  .footer-tape {
+    margin-top: 1.75rem;
+    height: clamp(4rem, 18vw, 5.5rem);
   }
 
   .message p {
